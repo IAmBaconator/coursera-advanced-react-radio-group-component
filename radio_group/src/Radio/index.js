@@ -13,7 +13,7 @@ export const RadioGroup = ({ onChange, selected, children }) => {
   return <div className="RadioGroup">{RadioOptions}</div>;
 };
 
-export const RadioOption = ({ value, checked, onChange, children }) => {t
+export const RadioOption = ({ value, checked, onChange, children }) => {
   return (
     <div className="RadioOption">
       <input
